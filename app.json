@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "EuroBite",
+    "slug": "eurobite",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "foodapp",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#13151C"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.fooddelivery.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#13151C"
+      },
+      "package": "com.fooddelivery.app"
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": ["expo-router"]
+  }
+}
